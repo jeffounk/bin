@@ -1,0 +1,12 @@
+#!/bin/bash
+
+mwd=~/Music
+jwd=~/.jfcd
+
+cwd=$(pwd)
+mkdir -p $jwd
+cd $jwd
+abcde
+mkdir -p $mwd/$1/
+mv * $mwd/$1/
+cd $cwd
